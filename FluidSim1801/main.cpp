@@ -1,4 +1,5 @@
 #include "GridStag.h"
+
 #include "Renderer.h"
 #include "FluidSim.h"
 #include "keyboard.h"
@@ -8,6 +9,8 @@
 #include <string>
 
 GridStag* sGrid = new GridStag ;
+//GridStag* sGrid = new GridStag ;
+
 Renderer* render = new Renderer ;
 Printer * print = new Printer ;
 FluidSim* fluidSim = new FluidSim ;

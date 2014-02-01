@@ -1,6 +1,12 @@
+
+
+
 CC=g++
 
+
 GL_INC_DIR=/usr/include
+
+
 GL_LIB_DIR=/usr/lib
 
 GL_LIBS=-L$(GL_LIB_DIR) -lglut -lGLU -lGL
